@@ -1,0 +1,569 @@
+{
+  "voice": "Samantha",
+  "rate": 175,
+  "sections": [
+    {
+      "id": "01",
+      "title": "朝の情景",
+      "sentences": [
+        {
+          "id": "S001",
+          "japanese": "起きて。学校に遅れるわ。",
+          "english": "Get up. You're gonna be late for school.",
+          "note": "",
+          "audio": "audio/S001-2062a7778713.mp3"
+        },
+        {
+          "id": "S002",
+          "japanese": "もう起きたよ。",
+          "english": "I'm up now.",
+          "note": "",
+          "audio": "audio/S002-23b9a27930b3.mp3"
+        },
+        {
+          "id": "S003",
+          "japanese": "寝過ごしちゃった。",
+          "english": "I've overslept.",
+          "note": "",
+          "audio": "audio/S003-2edee113b4a1.mp3"
+        },
+        {
+          "id": "S004",
+          "japanese": "7時に目覚ましをセットしたんだ。",
+          "english": "I set the alarm for seven o'clock.",
+          "note": "",
+          "audio": "audio/S004-ea06d3270029.mp3"
+        },
+        {
+          "id": "S005",
+          "japanese": "目覚ましが鳴ったのが聞こえなかったよ。",
+          "english": "I couldn't hear my alarm clock going off.",
+          "note": "",
+          "audio": "audio/S005-e86d5f4c04a1.mp3"
+        },
+        {
+          "id": "S006",
+          "japanese": "もう8時？　なんで起こしてくれなかったの？",
+          "english": "Is it eight already? Why didn't you wake me up?",
+          "note": "",
+          "audio": "audio/S006-249805e1375b.mp3"
+        },
+        {
+          "id": "S007",
+          "japanese": "よく眠れた？",
+          "english": "Did you sleep well?",
+          "note": "",
+          "audio": "audio/S007-61b3e3102397.mp3"
+        },
+        {
+          "id": "S008",
+          "japanese": "まだ半分寝てる。",
+          "english": "I feel only half awake.",
+          "note": "",
+          "audio": "audio/S008-ae8c62b2c79f.mp3"
+        },
+        {
+          "id": "S009",
+          "japanese": "首を寝違えたな。",
+          "english": "I woke up with a crick in my neck.",
+          "note": "",
+          "audio": "audio/S009-5558f9fd001c.mp3"
+        },
+        {
+          "id": "S010",
+          "japanese": "新聞を取ってきてくれないか？",
+          "english": "Can you go and get the newspaper?",
+          "note": "",
+          "audio": "audio/S010-4b33b67822ac.mp3"
+        },
+        {
+          "id": "S011",
+          "japanese": "私の老眼鏡を見なかった？",
+          "english": "Did you see my reading glasses?",
+          "note": "",
+          "audio": "audio/S011-c81c1e782e4e.mp3"
+        },
+        {
+          "id": "S012",
+          "japanese": "朝食にはバタートースト1枚とコーヒーを1杯いただきたいね。",
+          "english": "I would like a slice of buttered toast and a cup of coffee for breakfast.",
+          "note": "",
+          "audio": "audio/S012-b37d083e26ef.mp3"
+        },
+        {
+          "id": "S013",
+          "japanese": "コーヒーができてるはずよ。",
+          "english": "Coffee should be ready.",
+          "note": "",
+          "audio": "audio/S013-815fc6f36677.mp3"
+        },
+        {
+          "id": "S014",
+          "japanese": "冷蔵庫からミルクを出してちょうだい。",
+          "english": "Get the milk from the fridge.",
+          "note": "",
+          "audio": "audio/S014-76076b0577a9.mp3"
+        },
+        {
+          "id": "S015",
+          "japanese": "腐ってる。",
+          "english": "It's gone bad.",
+          "note": "",
+          "audio": "audio/S015-7134f3d6c500.mp3"
+        },
+        {
+          "id": "S016",
+          "japanese": "ヨーグルトは体にいいのよ。",
+          "english": "Yogurt is good for you.",
+          "note": "",
+          "audio": "audio/S016-a1f9a9cf645b.mp3"
+        },
+        {
+          "id": "S017",
+          "japanese": "トーストが焦げてる。",
+          "english": "The toast is burned.",
+          "note": "",
+          "audio": "audio/S017-8e1ebc440001.mp3"
+        },
+        {
+          "id": "S018",
+          "japanese": "食事中は携帯を置きなさい。",
+          "english": "Put the cell phone down while you're eating.",
+          "note": "",
+          "audio": "audio/S018-392fc6ab24ac.mp3"
+        },
+        {
+          "id": "S019",
+          "japanese": "あなた、息が臭うわ。",
+          "english": "You have bad breath.",
+          "note": "",
+          "audio": "audio/S019-269994183358.mp3"
+        },
+        {
+          "id": "S020",
+          "japanese": "二日酔いは嫌だね。",
+          "english": "I hate the morning after.",
+          "note": "",
+          "audio": "audio/S020-41cd712976e0.mp3"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "外出前",
+      "sentences": [
+        {
+          "id": "S021",
+          "japanese": "着替えなくちゃ。",
+          "english": "I have to get dressed.",
+          "note": "",
+          "audio": "audio/S021-512cd52c2681.mp3"
+        },
+        {
+          "id": "S022",
+          "japanese": "何を着るのか決まらない。",
+          "english": "I can't figure out what to wear.",
+          "note": "",
+          "audio": "audio/S022-3aee21ff10a3.mp3"
+        },
+        {
+          "id": "S023",
+          "japanese": "ひげを剃る時間がない。",
+          "english": "I don't have time to shave.",
+          "note": "",
+          "audio": "audio/S023-d835a5eec827.mp3"
+        },
+        {
+          "id": "S024",
+          "japanese": "忘れ物ない？",
+          "english": "Got everything?",
+          "note": "",
+          "audio": "audio/S024-5fa408cee90a.mp3"
+        },
+        {
+          "id": "S025",
+          "japanese": "私、どこか変じゃない？",
+          "english": "Do I look OK?",
+          "note": "",
+          "audio": "audio/S025-b4908e0ea891.mp3"
+        },
+        {
+          "id": "S026",
+          "japanese": "犬に餌をやった？",
+          "english": "Did you feed the dog?",
+          "note": "",
+          "audio": "audio/S026-ed2a9601bd3c.mp3"
+        },
+        {
+          "id": "S027",
+          "japanese": "お弁当を鞄に入れておくわね。",
+          "english": "I'll put your lunch in your bag.",
+          "note": "",
+          "audio": "audio/S027-5a44f88685b4.mp3"
+        },
+        {
+          "id": "S028",
+          "japanese": "留守電つけたよ。",
+          "english": "I've set the answering machine.",
+          "note": "",
+          "audio": "audio/S028-69f7c133fc21.mp3"
+        },
+        {
+          "id": "S029",
+          "japanese": "あなた、今日の夕飯は家で食べるの？",
+          "english": "Will you be eating at home tonight?",
+          "note": "",
+          "audio": "audio/S029-9b5604d23443.mp3"
+        },
+        {
+          "id": "S030",
+          "japanese": "帰りは遅くならないようにね。",
+          "english": "Don't be home late.",
+          "note": "",
+          "audio": "audio/S030-bd1b59ef7469.mp3"
+        },
+        {
+          "id": "S031",
+          "japanese": "台所のガスをもう一度見て。",
+          "english": "Double-check the gas in the kitchen.",
+          "note": "",
+          "audio": "audio/S031-20a8b848ad24.mp3"
+        },
+        {
+          "id": "S032",
+          "japanese": "パソコンを消そうか？",
+          "english": "Shall I turn off the computer?",
+          "note": "",
+          "audio": "audio/S032-63f565607b57.mp3"
+        },
+        {
+          "id": "S033",
+          "japanese": "電気つけっぱなしだよ。",
+          "english": "You left the light on.",
+          "note": "",
+          "audio": "audio/S033-6120f542b1b4.mp3"
+        },
+        {
+          "id": "S034",
+          "japanese": "電気ストーブはコンセントを抜いたほうがいいな。",
+          "english": "I'd better pull out the plug for the electric heater.",
+          "note": "",
+          "audio": "audio/S034-8ad01361e05c.mp3"
+        },
+        {
+          "id": "S035",
+          "japanese": "電気を節約するいい方法なんだ。",
+          "english": "It's a good way to save electricity.",
+          "note": "",
+          "audio": "audio/S035-d14a56d21dbf.mp3"
+        },
+        {
+          "id": "S036",
+          "japanese": "鍵はすべて閉めたかしら？",
+          "english": "Did I lock up everything?",
+          "note": "",
+          "audio": "audio/S036-3a0d47207459.mp3"
+        },
+        {
+          "id": "S037",
+          "japanese": "ホームセキュリティシステムがセットしてあるか見て。",
+          "english": "See if the home security system is on.",
+          "note": "",
+          "audio": "audio/S037-42d48c446ce6.mp3"
+        },
+        {
+          "id": "S038",
+          "japanese": "もう行くよ。電車に遅れたら嫌だから。",
+          "english": "I'm going now. I don't want to miss my train.",
+          "note": "",
+          "audio": "audio/S038-1970143c8847.mp3"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "通勤／通学電車",
+      "sentences": [
+        {
+          "id": "S039",
+          "japanese": "走れば間に合うかも。",
+          "english": "Maybe I can make it, if I run.",
+          "note": "",
+          "audio": "audio/S039-95f98684b407.mp3"
+        },
+        {
+          "id": "S040",
+          "japanese": "定期券を更新しなきゃ。",
+          "english": "I have to renew my commuter pass.",
+          "note": "",
+          "audio": "audio/S040-c42f0f205f8d.mp3"
+        },
+        {
+          "id": "S041",
+          "japanese": "君はどうやって通勤してるの？",
+          "english": "How do you commute?",
+          "note": "",
+          "audio": "audio/S041-51dc7cff81e3.mp3"
+        },
+        {
+          "id": "S042",
+          "japanese": "僕はJRを使ってる。",
+          "english": "I use the JR line.",
+          "note": "下線部「JR line」は「subway（地下鉄）」に置き換え可",
+          "audio": "audio/S042-e15a52a4ac04.mp3"
+        },
+        {
+          "id": "S043",
+          "japanese": "ホームを間違えてる。",
+          "english": "I'm on the wrong platform.",
+          "note": "",
+          "audio": "audio/S043-99135e35b6cc.mp3"
+        },
+        {
+          "id": "S044",
+          "japanese": "憂鬱な月曜日だ。",
+          "english": "It's a gloomy Monday.",
+          "note": "",
+          "audio": "audio/S044-87e229772401.mp3"
+        },
+        {
+          "id": "S045",
+          "japanese": "満員電車に乗るのは大嫌い。",
+          "english": "I hate to travel in a jam-packed train.",
+          "note": "",
+          "audio": "audio/S045-656c7fa4d984.mp3"
+        },
+        {
+          "id": "S046",
+          "japanese": "いつも好きな音楽を聞いてやり過ごすの。",
+          "english": "I always listen to my favorite music and get away with it.",
+          "note": "",
+          "audio": "audio/S046-f911925c8d1a.mp3"
+        },
+        {
+          "id": "S047",
+          "japanese": "ラッシュアワーは混雑してる。",
+          "english": "It's crowded during rush hour.",
+          "note": "",
+          "audio": "audio/S047-c1d5be26ca8d.mp3"
+        },
+        {
+          "id": "S048",
+          "japanese": "あの人たちを見てよ。まったく生気がない。",
+          "english": "Look at them. They look so lifeless.",
+          "note": "",
+          "audio": "audio/S048-4bbbe0657fb3.mp3"
+        },
+        {
+          "id": "S049",
+          "japanese": "誰かの強い香水で気持ち悪くなった。",
+          "english": "Someone's strong perfume made me sick.",
+          "note": "",
+          "audio": "audio/S049-5cf2d712d3a1.mp3"
+        },
+        {
+          "id": "S050",
+          "japanese": "優先席は健康な若者が占拠してる。",
+          "english": "The priority seats are occupied by healthy young people.",
+          "note": "",
+          "audio": "audio/S050-b4976bb4c54c.mp3"
+        },
+        {
+          "id": "S051",
+          "japanese": "妊婦さんに席を譲ったよ。",
+          "english": "I gave my seat to a pregnant woman.",
+          "note": "",
+          "audio": "audio/S051-2d8184d56b9a.mp3"
+        },
+        {
+          "id": "S052",
+          "japanese": "押さないで。息ができない。",
+          "english": "Don't push me. I can't breathe.",
+          "note": "",
+          "audio": "audio/S052-cee99b2ee259.mp3"
+        },
+        {
+          "id": "S053",
+          "japanese": "誰かの足を踏んじゃった。",
+          "english": "I've stepped on someone's foot.",
+          "note": "",
+          "audio": "audio/S053-ed37c3adb1bb.mp3"
+        },
+        {
+          "id": "S054",
+          "japanese": "乗り過ごした！",
+          "english": "I've missed my stop!",
+          "note": "",
+          "audio": "audio/S054-f7671aed36d2.mp3"
+        },
+        {
+          "id": "S055",
+          "japanese": "降ります。通してください。",
+          "english": "I'm getting off. Please let me through.",
+          "note": "",
+          "audio": "audio/S055-5813fd041ebe.mp3"
+        },
+        {
+          "id": "S056",
+          "japanese": "おばあさんに道をあけてあげて。",
+          "english": "Make way for the elderly woman.",
+          "note": "",
+          "audio": "audio/S056-22fc8abb6d54.mp3"
+        },
+        {
+          "id": "S057",
+          "japanese": "私に触っていますよ。",
+          "english": "You're touching me.",
+          "note": "",
+          "audio": "audio/S057-61c9676649df.mp3"
+        },
+        {
+          "id": "S058",
+          "japanese": "やめないと叫びます。",
+          "english": "Stop or I'll scream.",
+          "note": "",
+          "audio": "audio/S058-9abbb2e67195.mp3"
+        },
+        {
+          "id": "S059",
+          "japanese": "電車内で痴漢をつかまえた。",
+          "english": "I caught a train groper on the train.",
+          "note": "",
+          "audio": "audio/S059-2a47fc04763b.mp3"
+        },
+        {
+          "id": "S060",
+          "japanese": "露出狂に遭遇したわ。",
+          "english": "I ran into a flasher.",
+          "note": "",
+          "audio": "audio/S060-94b01f39a96c.mp3"
+        },
+        {
+          "id": "S061",
+          "japanese": "女の子はお化粧に夢中。",
+          "english": "A girl is absorbed in putting on makeup.",
+          "note": "",
+          "audio": "audio/S061-c67990f705e7.mp3"
+        },
+        {
+          "id": "S062",
+          "japanese": "電車が大きく揺れるか、急停車すればいいのに。",
+          "english": "I hope the train will swing wildly or stop with a jolt.",
+          "note": "",
+          "audio": "audio/S062-a7a77a583a9c.mp3"
+        },
+        {
+          "id": "S063",
+          "japanese": "女の人に険しい目でにらまれた。",
+          "english": "A woman shot me a stern look.",
+          "note": "",
+          "audio": "audio/S063-4e1868f572f6.mp3"
+        },
+        {
+          "id": "S064",
+          "japanese": "これは女性専用車両です。",
+          "english": "This car is for women only.",
+          "note": "",
+          "audio": "audio/S064-f057901c0551.mp3"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "オフィスの朝",
+      "sentences": [
+        {
+          "id": "S065",
+          "japanese": "おはよう。週末はどうだった？",
+          "english": "Good morning. How was your weekend?",
+          "note": "",
+          "audio": "audio/S065-0b55b3f0ad18.mp3"
+        },
+        {
+          "id": "S066",
+          "japanese": "あいつ、今朝はやたらご機嫌だな。",
+          "english": "He is a happy guy this morning.",
+          "note": "",
+          "audio": "audio/S066-cd0c68ab8850.mp3"
+        },
+        {
+          "id": "S067",
+          "japanese": "僕のタイムカード押してくれる？",
+          "english": "Can you punch my time card for me?",
+          "note": "",
+          "audio": "audio/S067-9adde9312d67.mp3"
+        },
+        {
+          "id": "S068",
+          "japanese": "8時50分に朝礼があります。",
+          "english": "We have a morning meeting at ten to nine.",
+          "note": "",
+          "audio": "audio/S068-b7e3783e86bf.mp3"
+        },
+        {
+          "id": "S069",
+          "japanese": "9時のお客様が既に来ていますよ。",
+          "english": "Your nine o'clock is already here.",
+          "note": "",
+          "audio": "audio/S069-370a15c228e1.mp3"
+        },
+        {
+          "id": "S070",
+          "japanese": "また遅刻よ。",
+          "english": "You're late again.",
+          "note": "",
+          "audio": "audio/S070-017c47959e0e.mp3"
+        },
+        {
+          "id": "S071",
+          "japanese": "事故のせいで電車がひどく遅れてね。",
+          "english": "The train was terribly delayed because of an accident.",
+          "note": "",
+          "audio": "audio/S071-eff815902b79.mp3"
+        },
+        {
+          "id": "S072",
+          "japanese": "これ、あなたのコーヒー。ここへ置いておくわね。",
+          "english": "I got you a coffee. I'll put it right here.",
+          "note": "",
+          "audio": "audio/S072-07da122f14f8.mp3"
+        },
+        {
+          "id": "S073",
+          "japanese": "いつも朝一番でメールをチェックする。",
+          "english": "I usually check my email first thing in the morning.",
+          "note": "",
+          "audio": "audio/S073-478d347d45e7.mp3"
+        },
+        {
+          "id": "S074",
+          "japanese": "昨日の夜あなたが帰ってから、コーンウェル氏から電話がありました。",
+          "english": "Mr. Cornwell called you after you'd left last night.",
+          "note": "",
+          "audio": "audio/S074-3d910e2f0657.mp3"
+        },
+        {
+          "id": "S075",
+          "japanese": "僕に何か郵便物が来てたかな？",
+          "english": "Did I get any mail?",
+          "note": "",
+          "audio": "audio/S075-87fce92c256d.mp3"
+        },
+        {
+          "id": "S076",
+          "japanese": "この書類を私の机に置いたのは誰？",
+          "english": "Who left this paper on my desk?",
+          "note": "",
+          "audio": "audio/S076-1e34f7493b1b.mp3"
+        },
+        {
+          "id": "S077",
+          "japanese": "3時のABC商事との打ち合わせ、先方の事務所でやるんだけど一緒に来られる？",
+          "english": "Can you come with me to the meeting with ABC Trading in their office at three?",
+          "note": "",
+          "audio": "audio/S077-88d2c9165966.mp3"
+        }
+      ]
+    }
+  ]
+}
