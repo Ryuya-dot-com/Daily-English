@@ -6,7 +6,7 @@ const AUTO_MS = 2000;
 let sections = [], selected, queue = [], index = 0;
 let phase = "setup", pausedPhase, remaining = THINK_MS, deadline = 0;
 let frame = 0, advanceTimer = 0, revision = 0;
-let context, source, currentBuffer, autoAdvance = false;
+let context, source, currentBuffer, autoAdvance = false, studyMode = false;
 const audioCache = new Map();
 
 function screen(name) {
@@ -120,14 +120,15 @@ function reveal() {
   phase = "answer";
   remaining = 0;
   paintTimer();
-  $("phase-label").textContent = "英文と音声で確認";
+  $("phase-label").textContent = studyMode ? "音声を聞いて、声に出してみましょう" : "英文と音声で確認";
   $("prompt").hidden = true;
   $("english").textContent = queue[index].english;
   $("note").textContent = queue[index].note;
   $("note").hidden = !queue[index].note;
   $("answer").hidden = false;
   $("replay").disabled = $("next").disabled = false;
-  playAnswer();
+  if (document.hidden) pause();
+  else playAnswer();
 }
 
 async function showQuestion() {
@@ -140,6 +141,8 @@ async function showQuestion() {
   $("answer").hidden = $("paused").hidden = $("audio-error").hidden = true;
   $("english").textContent = "";
   $("phase-label").textContent = "準備中";
+  $("timer").hidden = $("timer-number").hidden = studyMode;
+  $("answer-label").textContent = studyMode ? "ENGLISH" : "ANSWER";
   $("japanese").textContent = "音声を準備しています…";
   $("japanese").hidden = false;
   $("prompt").hidden = true;
@@ -155,13 +158,17 @@ async function showQuestion() {
     if (token !== revision) return;
     currentBuffer = buffer;
     $("japanese").textContent = queue[index].japanese;
-    $("prompt").hidden = false;
-    $("phase-label").textContent = "英語を声に出してみましょう";
     $("pause").disabled = false;
-    phase = "thinking";
-    deadline = 0;
-    if (document.hidden) pause();
-    else runTimer();
+    if (studyMode) {
+      reveal();
+    } else {
+      $("prompt").hidden = false;
+      $("phase-label").textContent = "英語を声に出してみましょう";
+      phase = "thinking";
+      deadline = 0;
+      if (document.hidden) pause();
+      else runTimer();
+    }
     if (queue[index + 1]) loadAudio(queue[index + 1]).catch(() => {});
   } catch (error) {
     if (token !== revision) return;
@@ -169,7 +176,8 @@ async function showQuestion() {
     phase = "error";
     $("japanese").textContent = "音声を読み込めませんでした";
     $("phase-label").textContent = "読み込みエラー";
-    $("audio-error-text").textContent = "通信状況を確認して、もう一度読み込んでください。タイマーはまだ始まっていません。";
+    $("audio-error-text").textContent = "通信状況を確認して、もう一度読み込んでください。"
+      + (studyMode ? "" : "タイマーはまだ始まっていません。");
     $("audio-error").hidden = false;
   }
 }
@@ -186,12 +194,13 @@ async function start() {
     await context.resume();
     if (token !== revision) return;
     const random = document.querySelector('input[name="order"]:checked').value === "random";
+    studyMode = document.querySelector('input[name="mode"]:checked').value === "study";
     queue = random ? shuffle(selected.sentences) : [...selected.sentences];
     autoAdvance = $("auto").checked;
     audioCache.clear();
     index = 0;
     $("practice-title").textContent = selected.title;
-    $("order-label").textContent = random ? "ランダム" : "掲載順";
+    $("order-label").textContent = `${studyMode ? "学習" : "3秒チャレンジ"} · ${random ? "ランダム" : "掲載順"}`;
     screen("practice");
     $("practice-title").focus();
     await showQuestion();

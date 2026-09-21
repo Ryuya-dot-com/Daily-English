@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#244dd8">
-  <meta name="description" content="日本語を見て、3秒で英語を声に出す。日常の場面を選んで、音声と一緒に練習しましょう。">
-  <title>Daily English — 3秒で、英語に。</title>
+  <meta name="description" content="英文と音声で覚える学習モードと、日本語から答える3秒チャレンジ。日常の場面を選んで英語を練習しましょう。">
+  <title>Daily English — 覚えて、声に出す。</title>
   <link rel="icon" href="icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="style.css?v=2">
+  <script src="app.js?v=2" defer></script>
 </head>
 <body>
   <header class="header">
@@ -17,8 +17,9 @@
   </header>
   <main>
     <section id="setup" aria-labelledby="setup-title">
-      <div class="intro"><p class="eyebrow">THINK IN JAPANESE. SPEAK IN ENGLISH.</p><h1 id="setup-title">3秒で、英語に。</h1><p>日本語を見たら、英語を声に出してみましょう。<br>3秒後に、英文と音声で答えを確認できます。</p></div>
+      <div class="intro"><p class="eyebrow">THINK IN JAPANESE. SPEAK IN ENGLISH.</p><h1 id="setup-title">覚えて、声に出す。</h1><p>初めての文は「学習」で確認。<br>覚えた文は「3秒チャレンジ」で声に出してみましょう。</p></div>
       <form id="settings">
+        <fieldset class="mode-picker"><legend>練習モード</legend><div class="segmented"><label><input type="radio" name="mode" value="study"><span><strong>学習</strong><small>英文と音声で確認・時間制限なし</small></span></label><label><input type="radio" name="mode" value="challenge" checked><span><strong>3秒チャレンジ</strong><small>日本語を見て、3秒で答える</small></span></label></div></fieldset>
         <div class="section-heading"><h2>練習する場面を選ぶ</h2><span id="total" class="muted"></span></div>
         <div id="sections" class="section-grid" role="group" aria-label="sectionを選択"><p id="loading" role="status">教材を読み込んでいます…</p></div>
         <div class="settings-row">
@@ -35,10 +36,10 @@
       <div class="section-heading"><h1 id="practice-title" class="practice-title" tabindex="-1"></h1><span id="order-label" class="tag"></span></div>
       <progress id="session-progress" class="session-progress" value="0" max="1" aria-label="セッションの進み具合"></progress>
       <div id="study-card" class="study-card">
-        <div class="card-top"><span id="phase-label" class="eyebrow" role="status">準備中</span><span class="timer-number"><strong id="seconds">3.0</strong><span>秒</span></span></div>
+        <div class="card-top"><span id="phase-label" class="eyebrow" role="status">準備中</span><span id="timer-number" class="timer-number"><strong id="seconds">3.0</strong><span>秒</span></span></div>
         <div class="timer-track" id="timer" role="progressbar" aria-label="答えるまでの残り時間" aria-valuemin="0" aria-valuemax="3" aria-valuenow="3"><div id="timer-fill"></div></div>
         <div class="question-area"><p id="japanese" class="japanese"></p><p id="prompt" class="muted">英語を声に出してみましょう</p></div>
-        <div id="answer" class="answer" hidden><p class="eyebrow">ANSWER</p><p id="english" class="english" lang="en"></p><p id="note" class="note" hidden></p></div>
+        <div id="answer" class="answer" hidden><p id="answer-label" class="eyebrow">ANSWER</p><p id="english" class="english" lang="en"></p><p id="note" class="note" hidden></p></div>
         <div id="paused" class="pause-notice" hidden><strong>一時停止中</strong><p>「再開する」で練習に戻れます。</p></div>
         <div id="audio-error" class="error" role="alert" hidden><p id="audio-error-text"></p><button id="retry" class="secondary" type="button">もう一度読み込む</button></div>
       </div>
